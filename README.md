@@ -19,12 +19,12 @@ Ben Fatih AYIBASAN, bir Bilgisayar Mühendisliği öğrencisi olarak geliştirmi
 - [Kurulum ve Çalıştırma](#kurulum-ve-çalıştırma)
 - [Sonuç ve Yorumlar](#sonuç-ve-yorumlar)
 
----
+
 
 ## Genel Bakış
 Bu proje, modern eczane otomasyon sistemlerinin gereksinimlerini karşılamak üzere tasarlanmıştır. Üç temel kullanıcı tipi (Hasta, Doktor, Eczane) için entegre modüller sunarak, her bir sistemin kendi işlevselliğini korurken, aralarındaki veri alışverişini de sağlamaktadır. Proje, kullanıcı dostu arayüzü, gerçek zamanlı veri işleme kabiliyeti ve sağlam veritabanı yapısı ile öne çıkmaktadır.
 
----
+
 
 ## Teknoloji ve Diller
 Proje geliştirilirken aşağıdaki teknolojiler kullanılmıştır:
@@ -88,6 +88,7 @@ Proje üç ana modülü entegre etmektedir:
 - **Doktor Girişi**: Doktorların reçete oluşturma, düzenleme, muayene ekleme, raporlama ve kullanıcı işlemleri gibi geniş fonksiyonlara sahip modül.
 - **Eczane Girişi**: Eczane personelinin, yazılan ereçeteleri görüntüleme, kağıt reçete girişi, reçetesiz ilaç satışı, stok durumunu sorgulama ve barkod okuma entegrasyonunu kullanarak ilaç sorgulama işlemlerinin yürütülmesi.
 
+
 ---
 ## Kurulum ve Çalıştırma
 
@@ -102,6 +103,7 @@ Proje üç ana modülü entegre etmektedir:
    - Restore işlemi tamamlandıktan sonra, exe dosyasını çalıştırarak sistemin tüm özelliklerine erişebilirsiniz.
    - Uygulama içerisinde kullanıcı tipi seçimi yaparak, Hasta, Doktor veya Eczane modüllerine giriş yapabilirsiniz.
 
+
 ---
 
 ## Sonuç ve Yorumlar
@@ -112,7 +114,6 @@ Bu eczane otomasyonu projesi, modern yazılım geliştirme tekniklerinin ve ente
 
 Projemi geliştirirken edindiğim deneyimleri ve karşılaştığım zorlukları, bu README ile özetlemeye çalıştım. Geri bildirimleriniz ve önerileriniz, projemi daha da geliştirmek için büyük önem taşımaktadır.
 
----
 
 Teşekkürler,  
 Fatih AYIBASAN  
