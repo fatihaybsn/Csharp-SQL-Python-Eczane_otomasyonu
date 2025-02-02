@@ -22,7 +22,8 @@ Ben Fatih AYIBASAN, bir Bilgisayar Mühendisliği öğrencisi olarak geliştirmi
 ---
 
 
-![Uploading Ekran görüntüsü 2025-02-02 214454.png…]()
+![Ekran görüntüsü 2025-02-02 214454](https://github.com/user-attachments/assets/ee94300d-b9da-4afe-ae5b-295b9cb8c743)
+
 
 
 ## Genel Bakış
