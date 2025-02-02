@@ -105,15 +105,12 @@ Proje üç ana modülü entegre etmektedir:
 
 1. **Dosya Dağıtımı:**  
    Proje, exe dosyası ve yanındaki `.bak` uzantılı veritabanı yedeği ile dağıtılmaktadır.
-
-2. **Veritabanı Kurulumu:**  
-   - Sağlanan `.bak` dosyasını, MsSQL Server Management Studio (SSMS) kullanarak restore (geri yükleme) işlemi ile veritabanınıza aktarınız.
-   - Restore işleminde, veritabanı dosyasının yerini ve bağlantı ayarlarınızı doğru yapılandırdığınızdan emin olunuz.
+   Sağlanan `.bak` dosyasını, MsSQL Server Management Studio (SSMS) kullanarak restore (geri yükleme) işlemi ile veritabanınıza aktarabilirsiniz.
+   Restore işleminde, veritabanı dosyasının yerini ve bağlantı ayarlarınızı doğru yapılandırdığınızdan emin olunuz.
+   
 
 3. **Uygulama Çalıştırma:**  
-   - Restore işlemi tamamlandıktan sonra, exe dosyasını çalıştırarak sistemin tüm özelliklerine erişebilirsiniz.
    - Uygulama içerisinde kullanıcı tipi seçimi yaparak, Hasta, Doktor veya Eczane modüllerine giriş yapabilirsiniz.
-
 
 ---
 
