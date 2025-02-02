@@ -92,7 +92,8 @@ Eczane çalışanları, sistemde şu işlemleri gerçekleştirebilir:
 - Barkod entegrasyonu sayesinde, ilaç sorgulama süreci büyük oranda otomatikleştirilmiş ve hatasız hale getirilmiştir.
 
 
-![Ekran görüntüsü 2025-02-02 204140](https://github.com/user-attachments/assets/e102d2e6-9d34-4f13-9d22-2c6066aee8f7)
+
+![WhatsApp Görsel 2025-02-03 saat 00 26 19_4572764f](https://github.com/user-attachments/assets/8d5db3ed-799b-458f-b99c-8a2e8770f273)
 
 ![Eczane Kayıt](https://github.com/user-attachments/assets/85ee9c15-a552-45ea-9a5a-4acb129ceb38)
 
@@ -122,7 +123,8 @@ Proje üç ana modülü entegre etmektedir:
 ---
 
 ![Ekran görüntüsü 2025-02-02 203949](https://github.com/user-attachments/assets/1fda494e-c21a-4356-a4d4-e12abeb44916)
-![Ekran görüntüsü 2025-02-02 203839](https://github.com/user-attachments/assets/f723e569-5885-47f1-8837-4daa76dc0a8e)
+![WhatsApp Görsel 2025-02-03 saat 00 26 46_00634554](https://github.com/user-attachments/assets/9db184f2-28b9-4f8c-9a02-1c766d284b2b)
+
 
 
 ## Sonuç ve Yorumlar
