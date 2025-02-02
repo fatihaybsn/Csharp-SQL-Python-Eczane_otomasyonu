@@ -1,4 +1,3 @@
-touch main.py   # Python dosyası
 touch main.cs   # C# dosyası
 touch database.sql   # MSSQL dosyası
 
