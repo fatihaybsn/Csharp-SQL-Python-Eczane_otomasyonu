@@ -22,7 +22,8 @@ Ben Fatih AYIBASAN, bir Bilgisayar Mühendisliği öğrencisi olarak geliştirmi
 ---
 
 
-![Ekran görüntüsü 2025-02-02 214454](https://github.com/user-attachments/assets/ee94300d-b9da-4afe-ae5b-295b9cb8c743)
+![Doktor Giriş](https://github.com/user-attachments/assets/f875f9eb-f6ed-4840-a835-1ab8fdb30ae5)
+
 
 
 
@@ -37,6 +38,7 @@ Proje geliştirilirken aşağıdaki teknolojiler kullanılmıştır:
 - **Python**: Barkod okuma işlemleri için entegre edilmiş olup, kamera aracılığıyla barkod verilerini okuyarak C# uygulamasına anlık veri aktarımını sağlamaktadır.
 
 
+![Ekran görüntüsü 2025-02-02 214454](https://github.com/user-attachments/assets/00b69b96-3f30-44af-8220-14161d5fdeb4)
 
 
 
@@ -60,6 +62,7 @@ Proje geliştirilirken aşağıdaki teknolojiler kullanılmıştır:
 Bu yapı, sistemin hem performansını artırmakta hem de veri bütünlüğünü sağlamaktadır.
 
 
+![Ekran görüntüsü 2025-02-02 223227](https://github.com/user-attachments/assets/2b14dd15-d8c4-4868-b6c4-b58c41665a8e)
 
 
 
@@ -89,7 +92,9 @@ Eczane çalışanları, sistemde şu işlemleri gerçekleştirebilir:
 - Barkod entegrasyonu sayesinde, ilaç sorgulama süreci büyük oranda otomatikleştirilmiş ve hatasız hale getirilmiştir.
 
 
+![Ekran görüntüsü 2025-02-02 204140](https://github.com/user-attachments/assets/e102d2e6-9d34-4f13-9d22-2c6066aee8f7)
 
+![Eczane Kayıt](https://github.com/user-attachments/assets/85ee9c15-a552-45ea-9a5a-4acb129ceb38)
 
 
 ## Sistem Mimarisi ve Özellikler
@@ -116,6 +121,8 @@ Proje üç ana modülü entegre etmektedir:
 
 ---
 
+![Ekran görüntüsü 2025-02-02 203949](https://github.com/user-attachments/assets/1fda494e-c21a-4356-a4d4-e12abeb44916)
+![Ekran görüntüsü 2025-02-02 203839](https://github.com/user-attachments/assets/f723e569-5885-47f1-8837-4daa76dc0a8e)
 
 
 ## Sonuç ve Yorumlar
