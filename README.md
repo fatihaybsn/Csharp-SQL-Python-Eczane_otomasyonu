@@ -21,9 +21,9 @@ Ben Fatih AYIBASAN, bir Bilgisayar Mühendisliği öğrencisi olarak geliştirmi
 
 
 
+
 ## Genel Bakış
 Bu proje, modern eczane otomasyon sistemlerinin gereksinimlerini karşılamak üzere tasarlanmıştır. Üç temel kullanıcı tipi (Hasta, Doktor, Eczane) için entegre modüller sunarak, her bir sistemin kendi işlevselliğini korurken, aralarındaki veri alışverişini de sağlamaktadır. Proje, kullanıcı dostu arayüzü, gerçek zamanlı veri işleme kabiliyeti ve sağlam veritabanı yapısı ile öne çıkmaktadır.
-
 
 
 ## Teknoloji ve Diller
@@ -31,6 +31,8 @@ Proje geliştirilirken aşağıdaki teknolojiler kullanılmıştır:
 - **C#**: Ana uygulama mantığının ve arayüzünün geliştirilmesinde kullanılmıştır. C# ile yazılmış exe dosyası, sistemin çekirdeğini oluşturmaktadır.
 - **MsSQL**: Veritabanı yönetim sistemi olarak tercih edilmiştir. Tablolar, trigger, view, store procedure ve fonksiyonlar ile veri tutarlılığı ve performans artırılmıştır.
 - **Python**: Barkod okuma işlemleri için entegre edilmiş olup, kamera aracılığıyla barkod verilerini okuyarak C# uygulamasına anlık veri aktarımını sağlamaktadır.
+
+
 
 ---
 
@@ -53,7 +55,9 @@ Proje geliştirilirken aşağıdaki teknolojiler kullanılmıştır:
 Bu yapı, sistemin hem performansını artırmakta hem de veri bütünlüğünü sağlamaktadır.
 
 
+
 ---
+
 ### Python ile Gerçek Zamanlı Barkod Okuma
 Benzersiz bir entegrasyon ile Python tabanlı barkod okuma sistemi, C# uygulamasıyla kesintisiz veri alışverişi gerçekleştirmektedir.  
 - **Nasıl Çalışır?**  
