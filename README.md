@@ -22,6 +22,8 @@ Ben Fatih AYIBASAN, bir Bilgisayar Mühendisliği öğrencisi olarak geliştirmi
 ---
 
 
+
+
 ## Genel Bakış
 Bu proje, modern eczane otomasyon sistemlerinin gereksinimlerini karşılamak üzere tasarlanmıştır. Üç temel kullanıcı tipi (Hasta, Doktor, Eczane) için entegre modüller sunarak, her bir sistemin kendi işlevselliğini korurken, aralarındaki veri alışverişini de sağlamaktadır. Proje, kullanıcı dostu arayüzü, gerçek zamanlı veri işleme kabiliyeti ve sağlam veritabanı yapısı ile öne çıkmaktadır.
 
@@ -31,6 +33,8 @@ Proje geliştirilirken aşağıdaki teknolojiler kullanılmıştır:
 - **C#**: Ana uygulama mantığının ve arayüzünün geliştirilmesinde kullanılmıştır. C# ile yazılmış exe dosyası, sistemin çekirdeğini oluşturmaktadır.
 - **MsSQL**: Veritabanı yönetim sistemi olarak tercih edilmiştir. Tablolar, trigger, view, store procedure ve fonksiyonlar ile veri tutarlılığı ve performans artırılmıştır.
 - **Python**: Barkod okuma işlemleri için entegre edilmiş olup, kamera aracılığıyla barkod verilerini okuyarak C# uygulamasına anlık veri aktarımını sağlamaktadır.
+
+
 
 
 
@@ -52,6 +56,8 @@ Proje geliştirilirken aşağıdaki teknolojiler kullanılmıştır:
   - Oluşturulan reçete ve fatura numaralarının benzersizliğini kontrol etmek amacıyla 3 adet fonksiyon geliştirilmiştir.
 
 Bu yapı, sistemin hem performansını artırmakta hem de veri bütünlüğünü sağlamaktadır.
+
+
 
 
 
@@ -82,6 +88,8 @@ Eczane çalışanları, sistemde şu işlemleri gerçekleştirebilir:
 
 
 
+
+
 ## Sistem Mimarisi ve Özellikler
 
 ### Entegre Sistemler
@@ -89,6 +97,7 @@ Proje üç ana modülü entegre etmektedir:
 - **Hasta Girişi**: Hastaların randevu, reçete ve diğer tıbbi bilgilerinin yönetimi.
 - **Doktor Girişi**: Doktorların reçete oluşturma, düzenleme, muayene ekleme, raporlama ve kullanıcı işlemleri gibi geniş fonksiyonlara sahip modül.
 - **Eczane Girişi**: Eczane personelinin, yazılan ereçeteleri görüntüleme, kağıt reçete girişi, reçetesiz ilaç satışı, stok durumunu sorgulama ve barkod okuma entegrasyonunu kullanarak ilaç sorgulama işlemlerinin yürütülmesi.
+
 
 
 ---
@@ -108,6 +117,8 @@ Proje üç ana modülü entegre etmektedir:
 
 ---
 
+
+
 ## Sonuç ve Yorumlar
 Bu eczane otomasyonu projesi, modern yazılım geliştirme tekniklerinin ve entegrasyon çözümlerinin başarılı bir örneğidir.  
 - **Entegrasyon Başarısı:** C# ve Python'un kesintisiz veri alışverişi yapabilmesi, sistemin esnekliğini ve hızını artırmaktadır.
@@ -115,6 +126,7 @@ Bu eczane otomasyonu projesi, modern yazılım geliştirme tekniklerinin ve ente
 - **Modüler Yaklaşım:** Hasta, Doktor ve Eczane modüllerinin ayrı ayrı yönetilebilmesi, sistem bakım ve güncellemelerinde büyük kolaylık sağlamaktadır.
 
 Projemi geliştirirken edindiğim deneyimleri ve karşılaştığım zorlukları, bu README ile özetlemeye çalıştım. Geri bildirimleriniz ve önerileriniz, projemi daha da geliştirmek için büyük önem taşımaktadır.
+
 
 
 Teşekkürler,  
