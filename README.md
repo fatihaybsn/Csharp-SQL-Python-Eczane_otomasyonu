@@ -19,7 +19,7 @@ Ben Fatih AYIBASAN, bir Bilgisayar Mühendisliği öğrencisi olarak geliştirmi
 - [Kurulum ve Çalıştırma](#kurulum-ve-çalıştırma)
 - [Sonuç ve Yorumlar](#sonuç-ve-yorumlar)
 
-
+---
 
 
 ## Genel Bakış
@@ -35,9 +35,7 @@ Proje geliştirilirken aşağıdaki teknolojiler kullanılmıştır:
 
 
 
-
 ## Veritabanı Tasarımı ve İşlevleri
----
 
 ### Tablolar ve Veri Setleri
 - **Toplam 13 Tablo:** Proje kapsamında, kullanıcı, reçete, ilaç ve stok yönetimi gibi işlemleri destekleyen 13 farklı tablo bulunmaktadır.
@@ -57,9 +55,8 @@ Bu yapı, sistemin hem performansını artırmakta hem de veri bütünlüğünü
 
 
 
----
 
-### Python ile Gerçek Zamanlı Barkod Okuma
+## Python ile Gerçek Zamanlı Barkod Okuma
 Benzersiz bir entegrasyon ile Python tabanlı barkod okuma sistemi, C# uygulamasıyla kesintisiz veri alışverişi gerçekleştirmektedir.  
 - **Nasıl Çalışır?**  
   Python, kamera aracılığıyla barkod verilerini okur ve bu bilgileri C# uygulamasına aktarır. Bu sayede eczane modülü, anında ilacın stok ve diğer bilgilerini sorgulayarak kullanıcıya hızlı sonuç sunar.
@@ -84,7 +81,7 @@ Eczane çalışanları, sistemde şu işlemleri gerçekleştirebilir:
 - Barkod entegrasyonu sayesinde, ilaç sorgulama süreci büyük oranda otomatikleştirilmiş ve hatasız hale getirilmiştir.
 
 
----
+
 ## Sistem Mimarisi ve Özellikler
 
 ### Entegre Sistemler
