@@ -1,21 +1,21 @@
 # Eczane Otomasyonu - README
 
 Merhaba,  
-Ben [Adınız Soyadınız], bir Bilgisayar Mühendisliği öğrencisi olarak geliştirmiş olduğum Eczane Otomasyonu projesini sizlerle paylaşmaktan memnuniyet duyuyorum. Proje, C#, MsSQL ve Python dillerinin gücünü bir araya getirerek, modern, entegre ve verimli bir eczane otomasyonu çözümü sunmaktadır.
+Ben Fatih AYIBASAN, bir Bilgisayar Mühendisliği öğrencisi olarak geliştirmiş olduğum Eczane Otomasyonu projesini sizlerle paylaşmaktan memnuniyet duyuyorum. Proje, C#, MsSQL ve Python dillerinin gücünü bir araya getirerek 3 ayrı kullanıcı sistemini tek programa entegre ederek, modern, entegre ve verimli bir eczane otomasyonu çözümü sunmaktadır.
 
 ---
 
 ## İçindekiler
 - [Genel Bakış](#genel-bakış)
 - [Teknoloji ve Diller](#teknoloji-ve-diller)
-- [Sistem Mimarisi ve Özellikler](#sistem-mimarisi-ve-özellikler)
-  - [Entegre Sistemler](#entegrasyon-sistemleri)
-  - [Python ile Gerçek Zamanlı Barkod Okuma](#python-ile-gerçek-zamanlı-barkod-okuma)
-  - [Doktor Modülü](#doktor-modülü)
-  - [Eczane Modülü](#eczane-modülü)
 - [Veritabanı Tasarımı ve İşlevleri](#veritabanı-tasarımı-ve-işlevleri)
   - [Tablolar ve Veri Setleri](#tablolar-ve-veri-setleri)
   - [Trigger, View, Store Procedure ve Fonksiyonlar](#trigger-view-store-procedure-ve-fonksiyonlar)
+- [Python ile Gerçek Zamanlı Barkod Okuma](#python-ile-gerçek-zamanlı-barkod-okuma)
+  - [Doktor Modülü](#doktor-modülü)
+  - [Eczane Modülü](#eczane-modülü)
+- [Sistem Mimarisi ve Özellikler](#sistem-mimarisi-ve-özellikler)
+  - [Entegre Sistemler](#entegrasyon-sistemleri)
 - [Kurulum ve Çalıştırma](#kurulum-ve-çalıştırma)
 - [Sonuç ve Yorumlar](#sonuç-ve-yorumlar)
 
@@ -34,14 +34,26 @@ Proje geliştirilirken aşağıdaki teknolojiler kullanılmıştır:
 
 ---
 
-## Sistem Mimarisi ve Özellikler
+## Veritabanı Tasarımı ve İşlevleri
 
-### Entegre Sistemler
-Proje üç ana modülü entegre etmektedir:
-- **Hasta Girişi**: Hastaların randevu, reçete ve diğer tıbbi bilgilerinin yönetimi.
-- **Doktor Girişi**: Doktorların reçete oluşturma, düzenleme, muayene ekleme, raporlama ve kullanıcı işlemleri gibi geniş fonksiyonlara sahip modül.
-- **Eczane Girişi**: Eczane personelinin, yazılan ereçeteleri görüntüleme, kağıt reçete girişi, reçetesiz ilaç satışı, stok durumunu sorgulama ve barkod okuma entegrasyonunu kullanarak ilaç sorgulama işlemlerinin yürütülmesi.
+### Tablolar ve Veri Setleri
+- **Toplam 13 Tablo:** Proje kapsamında, kullanıcı, reçete, ilaç ve stok yönetimi gibi işlemleri destekleyen 13 farklı tablo bulunmaktadır.
+- **İlaç Tablosu:** 7000'den fazla ilaç verisini barındıran ve 14 sütundan oluşan geniş kapsamlı bir veri tablosudur. Bu tablo, sistemin temel yapı taşlarından biri olarak, ilaç sorgulama ve stok yönetiminde kritik rol oynar.
 
+### Trigger, View, Store Procedure ve Fonksiyonlar
+- **Trigger:**  
+  - Fatura oluşturulması, veritabanı düzeyinde bir trigger (TRG) ile otomatikleştirilmiştir. Bu sayede, her reçete satışında anında fatura kaydı oluşturulur.
+- **View:**  
+  - Reçete ve ereçete bilgilerini bir araya getiren 2 adet view ile verilerin kullanıcıya daha okunabilir ve düzenli sunumu sağlanmıştır.
+- **Store Procedure:**  
+  - Arama işlemleri (ilaç, hasta, doktor vb.) için 11 adet önceden derlenmiş store procedure kullanılarak, sorgu işlemlerinin hızlandırılması ve veritabanı performansının artırılması hedeflenmiştir.
+- **Fonksiyonlar:**  
+  - Oluşturulan reçete ve fatura numaralarının benzersizliğini kontrol etmek amacıyla 3 adet fonksiyon geliştirilmiştir.
+
+Bu yapı, sistemin hem performansını artırmakta hem de veri bütünlüğünü sağlamaktadır.
+
+
+---
 ### Python ile Gerçek Zamanlı Barkod Okuma
 Benzersiz bir entegrasyon ile Python tabanlı barkod okuma sistemi, C# uygulamasıyla kesintisiz veri alışverişi gerçekleştirmektedir.  
 - **Nasıl Çalışır?**  
@@ -64,31 +76,19 @@ Eczane çalışanları, sistemde şu işlemleri gerçekleştirebilir:
 - Yazılan ereçeteyi görme ve reçete girişi yapma.
 - Kağıt reçete girme.
 - Reçetesiz ilaç satışı.
-- Barkod okuma sayesinde ilacın stok durumunu hızlıca sorgulama.  
-Barkod entegrasyonu sayesinde, ilaç sorgulama süreci büyük oranda otomatikleştirilmiş ve hatasız hale getirilmiştir.
+- Barkod entegrasyonu sayesinde, ilaç sorgulama süreci büyük oranda otomatikleştirilmiş ve hatasız hale getirilmiştir.
+
 
 ---
+## Sistem Mimarisi ve Özellikler
 
-## Veritabanı Tasarımı ve İşlevleri
-
-### Tablolar ve Veri Setleri
-- **Toplam 13 Tablo:** Proje kapsamında, kullanıcı, reçete, ilaç ve stok yönetimi gibi işlemleri destekleyen 13 farklı tablo bulunmaktadır.
-- **İlaç Tablosu:** 7000'den fazla ilaç verisini barındıran ve 14 sütundan oluşan geniş kapsamlı bir veri tablosudur. Bu tablo, sistemin temel yapı taşlarından biri olarak, ilaç sorgulama ve stok yönetiminde kritik rol oynar.
-
-### Trigger, View, Store Procedure ve Fonksiyonlar
-- **Trigger:**  
-  - Fatura oluşturulması, veritabanı düzeyinde bir trigger (TRG) ile otomatikleştirilmiştir. Bu sayede, her reçete satışında anında fatura kaydı oluşturulur.
-- **View:**  
-  - Reçete ve ereçete bilgilerini bir araya getiren 2 adet view ile verilerin kullanıcıya daha okunabilir ve düzenli sunumu sağlanmıştır.
-- **Store Procedure:**  
-  - Arama işlemleri (ilaç, hasta, doktor vb.) için 11 adet önceden derlenmiş store procedure kullanılarak, sorgu işlemlerinin hızlandırılması ve veritabanı performansının artırılması hedeflenmiştir.
-- **Fonksiyonlar:**  
-  - Oluşturulan reçete ve fatura numaralarının benzersizliğini kontrol etmek amacıyla 3 adet fonksiyon geliştirilmiştir.
-
-Bu yapı, sistemin hem performansını artırmakta hem de veri bütünlüğünü sağlamaktadır.
+### Entegre Sistemler
+Proje üç ana modülü entegre etmektedir:
+- **Hasta Girişi**: Hastaların randevu, reçete ve diğer tıbbi bilgilerinin yönetimi.
+- **Doktor Girişi**: Doktorların reçete oluşturma, düzenleme, muayene ekleme, raporlama ve kullanıcı işlemleri gibi geniş fonksiyonlara sahip modül.
+- **Eczane Girişi**: Eczane personelinin, yazılan ereçeteleri görüntüleme, kağıt reçete girişi, reçetesiz ilaç satışı, stok durumunu sorgulama ve barkod okuma entegrasyonunu kullanarak ilaç sorgulama işlemlerinin yürütülmesi.
 
 ---
-
 ## Kurulum ve Çalıştırma
 
 1. **Dosya Dağıtımı:**  
@@ -115,9 +115,9 @@ Projemi geliştirirken edindiğim deneyimleri ve karşılaştığım zorlukları
 ---
 
 Teşekkürler,  
-[Adınız Soyadınız]  
+Fatih AYIBASAN  
 Bilgisayar Mühendisliği Öğrencisi  
-(İletişim Bilgileriniz)
+fathaybasn@gmail.com
 
 --- 
 
