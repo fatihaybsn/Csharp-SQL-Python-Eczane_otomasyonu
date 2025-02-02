@@ -1,4 +1,4 @@
-# Eczane Otomasyonu - Profesyonel README
+# Eczane Otomasyonu - README
 
 Merhaba,  
 Ben [Adınız Soyadınız], bir Bilgisayar Mühendisliği öğrencisi olarak geliştirmiş olduğum Eczane Otomasyonu projesini sizlerle paylaşmaktan memnuniyet duyuyorum. Proje, C#, MsSQL ve Python dillerinin gücünü bir araya getirerek, modern, entegre ve verimli bir eczane otomasyonu çözümü sunmaktadır.
